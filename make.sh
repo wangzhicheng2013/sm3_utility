@@ -1,0 +1,1 @@
+gcc -g -o sm3_utility sm3_main.c sm3_utility.c file_utility.c -I ./ -I ./include/ -L ./ libcrypto.a -ldl -pthread  
